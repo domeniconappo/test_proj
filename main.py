@@ -1,5 +1,3 @@
-import os
-
 filename = 'text.txt'
 
 if __name__ == '__main__':
