@@ -1,5 +1,7 @@
 import os
 
+filename = 'text.txt'
+
 if __name__ == '__main__':
-    with os.open('test.txt', 'w') as f:
+    with os.open(filename, 'w') as f:
         f.write('a')
