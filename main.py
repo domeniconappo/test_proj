@@ -1,5 +1,3 @@
-filename = 'text.txt'
-
 if __name__ == '__main__':
-    with open(filename, 'w') as fh:
+    with open('text.txt', 'w') as fh:
         fh.write('a')
